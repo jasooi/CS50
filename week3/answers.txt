@@ -1,0 +1,12 @@
+sort1 uses: Bubble Sort
+
+How do you know?: It takes a much shorter time (0.627 at sorted50000.txt) if the list is sorted, compared to reversed or random (5.021, 5.619 for reversed and random respectively) because it just needs to iterate through the list once -- there is no swapping required because it is already sorted, but for random or reverse cases, it needs to iterate through N or more times.
+
+sort2 uses: Merge Sort
+
+How do you know?: It is the fastest algo for all files and The time taken for 5000 vs 50000 lines of characters did not increase exponentially. Results were fairly consistent across random/sorted/reversed orders as well
+
+sort3 uses: Selection Sort
+
+How do you know?: Time taken increases exponentially from 5000 to 50000 lines but is fairly consistent across random/sorted/reverse orders. This fits Selection Sort as it iterates through the list N times minimally even if the list is sorted and also N times if the list is completely unsorted
+
